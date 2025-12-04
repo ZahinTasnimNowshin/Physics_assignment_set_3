@@ -7,7 +7,7 @@ int main()
 
     if(wl<380 || wl>780)
     {
-        printf("Out of the range for wavelength.Please enter a valid number");
+        printf("Out of the range for wavelength.Please enter a valid number.");
         return 0;
     }
     printf("Enter the value of order of diffraction:");
@@ -31,3 +31,4 @@ int main()
 
     return 0;
 }
+
